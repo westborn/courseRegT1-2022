@@ -1,6 +1,6 @@
 const ZOOM_API_KEY = 'YNzuV58YTw23l1blpB05_Q'
 const ZOOM_API_SECRET = 'udVIOcqFC3OBPWn9pbTgjVlrHUt3mYIyqNgf'
-const ZOOM_EMAIL = 'u3acomputerclub@hotmail.com'
+const ZOOM_EMAIL = 'zoom@u3abermagui.com.au'
 
 const getZoomAccessToken = () => {
   const encode = (text) => Utilities.base64Encode(text).replace(/=+$/, '')
