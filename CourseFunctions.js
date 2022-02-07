@@ -195,7 +195,7 @@ function courseDetailToSheet(course, outputTo) {
       day: 'numeric',
     })
   rich = SpreadsheetApp.newRichTextValue()
-  rich.setText(cell).setTextStyle(bodyFontSize).setLinkUrl('https://bermagui.u3anet.org.au/enrolment')
+  rich.setText(cell).setTextStyle(bodyFontSize).setLinkUrl('https://U3ABermagui.com.au/enrolment')
   outputTo
     .offset(0, 2)
     .setRichTextValue(rich.build())
